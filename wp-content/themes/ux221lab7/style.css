@@ -1,0 +1,16 @@
+/*
+Theme Name:     UX221Lab7
+Description:    lab 7
+Author:         Rathesa
+Template:       twentytwentythree
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+:root {
+  --primary-color: #ff0000; /* Primary color */
+  --font-family: 'Arial', sans-serif; /* Font family */
+}
+body {
+  font-family: var(--font-family);
+  color: var(--primary-color);
+}
