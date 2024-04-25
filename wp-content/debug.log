@@ -8417,3 +8417,4 @@ Error occurred at line 3449 in Function <code>handle_error</code>. Error message
 #12 /wordpress/wp-admin/admin-ajax.php(2): require_once('/wordpress/wp-l...')
 #13 {main}</pre>
  for query SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = '1' made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, UserRegistration->init, UR_Session_Handler->__construct, UR_Session_Handler->get_session_data, UR_Session_Handler->get_session, WP_SQLite_DB->query, WP_SQLite_DB->print_error
+[25-Apr-2024 17:06:14 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
